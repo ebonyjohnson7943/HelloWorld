@@ -1,21 +1,20 @@
-import java.util.Scanner;
-public class number1 {
+import java.util.*;
 
+public class number1 {
 	public static void main(String[] args) {
-	int x = 10;
-	Scanner scanner = new Scanner(System.in);
+		int[] stringArray = new int[7];
+	int x = 19;
+	
 if (x%2==0) {
-	System.out.println("What is your favorite flavor of ice cream?");
-	
-	String flavor = scanner.nextLine();
-	
-	scanner.close();
-	
-	System.out.println("I like " + flavor + ". But my favorite flavor is vanilla");
-	
-	}
+	System.out.print(Arrays.toString(stringArray));
+}
+
 else {
-	System.out.println("Have a good day!");
+	System.out.println();
+}
+
+for (int s = 0; s >= 29; s++ ) {
+	System.out.println("Good Morning");
 }
 	}
 }
